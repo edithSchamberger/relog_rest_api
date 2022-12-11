@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ar.edu.undef.fie.relog_rest_api.domain</OriginalElement>
+  <nodes>
+    <node x="-469.5913890184481" y="699.7446326863699">ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Requerimiento</node>
+    <node x="80.37904477034667" y="218.38475070467192">ar.edu.undef.fie.relog_rest_api.domain.clases.Efecto</node>
+    <node x="365.76400101191155" y="-116.5034170443846">ar.edu.undef.fie.relog_rest_api.domain.organizacion.Organizacion</node>
+    <node x="101.03427033238762" y="552.5711129181127">ar.edu.undef.fie.relog_rest_api.domain.clases.Clase</node>
+    <node x="1140.6339923778185" y="1022.2490433012355">ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Egreso</node>
+    <node x="1005.763611063852" y="-18.924909379517487">ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.EstadoAbastecimiento</node>
+    <node x="789.0109696909502" y="1010.4992914915016">ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Ingreso</node>
+    <node x="999.2636110638518" y="819.499868925821">ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.MovimientoImp</node>
+    <node x="-193.7991568040687" y="59.496582955615395">ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Solicitud</node>
+    <node x="-41.20059482320238" y="982.4896154728868">ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseI</node>
+    <node x="142.53427033238762" y="982.4896154728868">ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseV</node>
+    <node x="341.62023221726724" y="982.489615472887">ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseIII</node>
+    <node x="524.8024229708074" y="982.4896154728868">ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseII</node>
+    <node x="1003.7636110638518" y="532.2745961978529">ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Movimiento</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.clases.Efecto" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Clase" relationship="TO_ONE">
+      <point x="75.872828371981" y="137.5" />
+      <point x="264.75187314232767" y="320.20484988681494" />
+      <point x="210.53427033238762" y="320.20484988681494" />
+      <point x="0.0" y="-170.5" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.EstadoAbastecimiento" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Movimiento" relationship="TO_MANY">
+      <point x="133.5" y="76.60522729388549" />
+      <point x="1139.2636110638518" y="261.180317914368" />
+      <point x="1139.2636110638518" y="509.6085825747724" />
+      <point x="1003.7636110638518" y="509.6085825747724" />
+      <point x="-135.5" y="0.0" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseI" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Clase" relationship="GENERALIZATION">
+      <point x="1.5399095269685859E-4" y="-26.9997050896244" />
+      <point x="26.799559167750317" y="938.6527958387517" />
+      <point x="210.53395635781038" y="938.6527958387517" />
+      <point x="-3.1397457723869593E-4" y="170.4997804498978" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Requerimiento" target="ar.edu.undef.fie.relog_rest_api.domain.organizacion.Organizacion" relationship="TO_ONE">
+      <point x="0.0" y="-181.5" />
+      <point x="-308.5913890184481" y="-2.6835197764723944" />
+      <point x="-190.0" y="-89.68010273208779" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Solicitud" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Efecto" relationship="TO_ONE">
+      <point x="-1.7349502094532454E-4" y="-115.49975722325847" />
+      <point x="-101.79933029908965" y="321.0" />
+      <point x="188.87855916775044" y="321.0" />
+      <point x="-4.856025962425292E-4" y="137.4995197764724" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Egreso" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.MovimientoImp" relationship="GENERALIZATION">
+      <point x="-139.9995476443985" y="1.6837632063015917E-4" />
+      <point x="1256.7971391417427" y="1049.249211677556" />
+      <point x="1256.7971391417427" y="970.3744561135283" />
+      <point x="1113.1449934980494" y="970.3744561135283" />
+      <point x="1113.1449934980494" y="903.7618197495442" />
+      <point x="60.171063112278034" y="34.76195082372317" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.EstadoAbastecimiento" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Efecto" relationship="TO_ONE">
+      <point x="-6.744412326042948E-5" y="-203.4998773565033" />
+      <point x="1139.2635436197286" y="321.0" />
+      <point x="188.87855916775044" y="321.0" />
+      <point x="-4.856025962425292E-4" y="137.4995197764724" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Requerimiento" target="ar.edu.undef.fie.relog_rest_api.domain.requerimiento.Solicitud" relationship="TO_MANY">
+      <point x="15.0" y="-181.5" />
+      <point x="-293.5913890184481" y="174.9965829556154" />
+      <point x="-92.0" y="0.0" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Movimiento" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.MovimientoImp" relationship="TO_ONE">
+      <point x="-135.5" y="15.0" />
+      <point x="1242.1899678881337" y="673.7745961978529" />
+      <point x="102.92635682428181" y="-49.5" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseV" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Clase" relationship="GENERALIZATION">
+      <point x="-2.5342731611033287E-4" y="-26.99981963413518" />
+      <point x="210.5340169050715" y="938.6527958387517" />
+      <point x="210.53395635781038" y="938.6527958387517" />
+      <point x="-3.1397457723869593E-4" y="170.4997804498978" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.organizacion.Organizacion" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.EstadoAbastecimiento" relationship="TO_MANY">
+      <point x="182.5" y="203.5" />
+      <point x="738.2640010119115" y="337.76373015605935" />
+      <point x="1038.0265446316403" y="337.76373015605935" />
+      <point x="-101.23706643221169" y="-203.5" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseII" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Clase" relationship="GENERALIZATION">
+      <point x="1.2319304164520872E-4" y="27.000217201828008" />
+      <point x="592.802546163849" y="938.6527958387517" />
+      <point x="210.53395635781038" y="938.6527958387517" />
+      <point x="-3.1397457723869593E-4" y="170.4997804498978" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.Ingreso" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.movimiento.MovimientoImp" relationship="GENERALIZATION">
+      <point x="-3.731123626948829E-5" y="-27.00038693258398" />
+      <point x="929.010932379714" y="970.3744561135283" />
+      <point x="1113.1449934980494" y="970.3744561135283" />
+      <point x="1113.1449934980494" y="892.6291799576067" />
+      <point x="9.278995491991964" y="23.62931103178562" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.organizacion.Organizacion" target="ar.edu.undef.fie.relog_rest_api.domain.estadoAbastecimiento.movimiento.EstadoAbastecimiento" relationship="CREATE">
+      <point x="190.0" y="0.0" />
+      <point x="1154.2635436197286" y="86.9965829556154" />
+      <point x="14.99993255587674" y="-203.5" />
+    </edge>
+    <edge source="ar.edu.undef.fie.relog_rest_api.domain.clases.ClaseIII" target="ar.edu.undef.fie.relog_rest_api.domain.clases.Clase" relationship="GENERALIZATION">
+      <point x="3.762353114780126E-4" y="-26.999808231866893" />
+      <point x="409.6206084525787" y="938.6527958387517" />
+      <point x="210.53395635781038" y="938.6527958387517" />
+      <point x="-3.1397457723869593E-4" y="170.4997804498978" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6287816843826656" showDependencies="true" x="459.5" y="494.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
