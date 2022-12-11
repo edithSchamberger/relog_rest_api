@@ -1,0 +1,12 @@
+#server:
+#  port: 9898
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/relogrestapi
+    username: postgres
+    password: thiago30
+  # ddl-auto actualiza los cambios en la BBDD
+  jpa:
+    hibernate:
+      ddl-auto: update
